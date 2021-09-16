@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cuestionario</title>
+	<link rel="stylesheet" href="../CSS/Estilocues.css" type="text/css"/>
+</head>
+<body>
+	<header id="titulo">
+		<h1><a href="#">¡Joselin Web!</a></h1>
+	</header>
+
+	<header id="subt">
+		<h1><a href="#">¡Cuestionario!</a></h1>
+	</header>
+
+	<section class="row conteiner-fluid" id="todo">
+        <aside id="lateral" class="col-sm-3">
+            <select id="temas">
+                <option value="0">Seleccione...</option>
+                <option value="videojuegos">Videojuegos</option>
+                <option value="otro">En construcción</option>
+            </select>
+        </aside>  
+
+	<section id="principal" class="col-sm-9">
+            <article id="videojuegos" class="contenedor">
+                <h3>Contesta las siguienets preguntas...</h3>
+                <p>¿Juegas videojuegos?</p>
+                <input type="text" id="respuesta1" placeholder="Introduce tu respuesta"/>
+                <p>¿Cuándo se crearon los videojuegos?</p>
+                <input type="text" id="respuesta2" placeholder="Introduce tu respuesta"/>
+                <p>¿Que prefieres Xbox o Play Station?</p>
+                <input type="text" id="respuesta3" placeholder="Introduce tu respuesta"/>
+                <p>¿Qué videojuegos conoces?</p>
+                <input type="text" id="respuesta4" placeholder="Introduce tu respuesta"/>
+                <p>¿Cuál es el videojuego más reciente?</p>
+                <input type="text" id="respuesta5" placeholder="Introduce tu respuesta"/>
+                <input type="button" value="Mostrar" onclick="mostrarDatos()"/>
+            </article>    
+            <p id="resultado" class="res">
+                Mostrara los resultados
+            </p>
+      </section>
+    </section>
+
+      <script src="../JS/funcionalidad.js"></script>
+
+<footer>
+   <h4>Joselin Escalante</h4> 
+</footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 16px;
+}
+
+
+#titulo{
+	background-color: #444F5E;
+	text-align: center;
+	height: 80px;
+}
+
+#titulo a{
+	text-decoration: none;
+	color: #519B75;
+	display: block;
+	font-size: 60px;
+}
+
+#titulo a:hover{
+	text-decoration: none;
+	color: #86AEE5;
+}
+
+#subt{
+	background-color: #FFFFFF;
+	text-align: center;
+	height: 60px;
+	padding: 15px;
+}
+
+#subt a{
+	text-decoration: none;
+	color: #4688C3;
+	display: block;
+	font-size: 30px;
+}
+
+#lateral{
+	background-color: #A2C0EA;
+	text-align: center;
+	padding: 50px 100px;
+}
+
+footer{
+	background-color: #444F5E;
+	color: #051133;
+	text-align: center;
+	padding: 20px 0; 
+}
+
+.contenedor{
+	width: 99%;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+	border: solid 1px #3D087B;
+	display: none;
+}
+
+#resultado{
+	transition: all .4s ease-in-out;
+}
+
+.res{
+	width: 99%;
+	line-height: 25px;
+	border: solid 1px #3D087B;
+	padding: 10px;
+	margin: 10px;
+}
+
+#videojuegos{
+	font-size: 16px;
+	font-family: arial;
+}
+
+#resultado{
+	font-size: 16px;
+	font-family: arial;
+	text-align: center;
+}
